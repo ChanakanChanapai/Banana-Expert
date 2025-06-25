@@ -20,5 +20,5 @@
 ---
 
 ## 🔗 Repository Structure
-
-
+- `/docs` – project vision & planning docs
+- `/src` – project source code
