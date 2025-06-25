@@ -10,7 +10,7 @@
 
 **For** new-generation farmers and farm owners
 **Who** want to learn about banana varieties and pre-order produce directly from growers
-**The** AI Banana Experะ
+**The** AI Banana Expert
 **Is **a smart agriculture platform powered by AI
 **That** accurately identifies banana species from images and provides a convenient produce reservation system 
 **Unlike** general websites that only classify fruits and vegetables,  
