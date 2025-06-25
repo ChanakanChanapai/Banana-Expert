@@ -6,9 +6,6 @@ CS 66 - ทีม Triple girls
 -Chanakan - Product Manager
 
 ## 🎯 Product Vision Statement
-For university students
-who struggle to find study groups,
-**StudyMate**
 For new-generation farmers and farm owners
 Who want to learn about banana varieties and pre-order produce directly from growers
 The AI Banana Expert
