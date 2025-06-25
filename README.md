@@ -1,4 +1,4 @@
-CS 66 - ทีม Triple girls
+## CS 66 - ทีม Triple girls
 
 ## 👥 Team Members
 -Phichayapa - Developer
