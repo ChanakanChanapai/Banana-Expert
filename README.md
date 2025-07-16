@@ -18,7 +18,3 @@
 **Our** product enables direct banana pre-orders from local farmers, supporting sustainable agriculture and community-based economies
 
 ---
-
-## 🔗 Repository Structure
-- `/docs` – project vision & planning docs
-- `/src` – project source code
