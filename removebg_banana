@@ -1,0 +1,34 @@
+from rembg import new_session, remove
+from PIL import Image
+import os
+
+input_folder = '/Users/phichy/Desktop/image'
+output_folder = '/Users/phichy/Desktop/final/น้ำว้าา'
+
+os.makedirs(output_folder, exist_ok=True)
+
+print(" เริ่มลบพื้นหลังรูปภาพ...")
+
+#  โหลดโมเดลแค่ครั้งเดียว
+session = new_session()
+
+#  เก็บรายการไฟล์ภาพทั้งหมด
+image_files = [f for f in os.listdir(input_folder) if f.lower().endswith(('.png', '.jpg', '.jpeg'))]
+total_images = len(image_files)
+
+#  วนลูปพร้อมนับลำดับภาพ
+for index, filename in enumerate(image_files, start=1):
+    input_path = os.path.join(input_folder, filename)
+    output_path = os.path.join(output_folder, os.path.splitext(filename)[0] + '.png')
+
+    print(f"  [{index}/{total_images}] กำลังประมวลผล: {filename}")
+
+    try:
+        with Image.open(input_path) as img:
+            output = remove(img, session=session)
+            output.save(output_path)
+        print(f" เสร็จแล้ว: {filename}")
+    except Exception as e:
+        print(f" เกิดข้อผิดพลาดกับ {filename}: {e}")
+
+print(" เสร็จหมดแล้วจ้า!")
